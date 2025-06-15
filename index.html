@@ -29,7 +29,7 @@
 
     <section class="container text-center py-5" id="about">
       <img src="images/foto-diga.jpeg" class="profile-img mb-3" alt="Profile Picture" />
-      <h1>Hi, I'm Muhammad Radiga Gubarda</h1>
+      <h1>Hi👋, I'm Muhammad Radiga Gubarda</h1>
       <p class="lead">Data Engineering | Artificial Intelligence | Tech Enthusiast</p>
       <p>Electrical Engineering graduate passionate about Big Data (data analyst, data science, data engineering), Artificial Intelligence, Large Language Model, and Digital transformation.</p>
     </section>
@@ -43,14 +43,16 @@
               <hr class="my-2">
               <h5 class="card-title">Universitas Padjadjaran</h5>
               <h6 class="card-text">Bachelor of Engineering Major in Electrical Engineering</h6>
-              <h6 class="card-subtitle mb-2 text-muted">August 2020 - February 2025</h6>
+              <h6 class="card-subtitle mb-3 text-muted">August 2020 - February 2025</h6>
+              <hr class="my-1">
+              <button type="button" class="btn btn-light d-block mx-auto" data-bs-toggle="modal" data-bs-target="#Activities-Modal">Activities and Orginizations</button>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-text"><i class="bi bi-journal-bookmark"></i> Training</h5>
+              <h5 class="card-text"><i class="bi bi-journal-bookmark"></i> Trainings</h5>
               <hr class="my-2">
               <h6>
               <ul>
@@ -60,14 +62,41 @@
                 <h6 class="card-subtitle text-muted">Digital Innovation</h6>
               </ul>
               </h6>
+              <hr class="my-1">
+              <button type="button" class="btn btn-light d-block mx-auto" data-bs-toggle="modal" data-bs-target="#Training-Modal">See more</button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="container py-5">
+        <h2 class="mb-4">Skills</h2>
+        <hr class="my-4">
+        <div class="slider-container">
+          <div class="slider-track">
+            <!-- Original icons -->
+            <div class="slide"><i class="bi bi-house-fill"></i></div>
+            <div class="slide"><i class="bi bi-lightning-fill"></i></div>
+            <div class="slide"><i class="bi bi-cpu-fill"></i></div>
+            <div class="slide"><i class="bi bi-wifi"></i></div>
+            <div class="slide"><i class="bi bi-gear-fill"></i></div>
+            <div class="slide"><i class="bi bi-cloud-fill"></i></div>
+            <!-- Duplicated icons for seamless loop -->
+            <div class="slide"><i class="bi bi-house-fill"></i></div>
+            <div class="slide"><i class="bi bi-lightning-fill"></i></div>
+            <div class="slide"><i class="bi bi-cpu-fill"></i></div>
+            <div class="slide"><i class="bi bi-wifi"></i></div>
+            <div class="slide"><i class="bi bi-gear-fill"></i></div>
+            <div class="slide"><i class="bi bi-cloud-fill"></i></div>
+          </div>
+        </div>
+
+
+    </section>
+
     <section class="container py-5" id="experience">
-      <h2 class="mb-4">Experience</h2>
+      <h2 class="mb-4">Experiences</h2>
       <hr class="my-4">
       <div class="card mb-3">
         <div class="card-body">
@@ -101,7 +130,7 @@
       <h2 class="mb-4">Projects</h2>
       <hr class="my-4">
       <a href="https://github.com/diga-tech/Destinology_ML" class="text-decoration-none">
-      <div class="card mb-3">
+      <div class="card mb-3 hover-card">
         <div class="card-body">
           <h5 class="card-title">Destinology</h5>
           <p class="card-text">A travel itinerary planner and landmark recognition application mobile app for android. This project uses CNN and
@@ -110,7 +139,7 @@ pre-trained MobileNetV2 models for landmark detection. A collaborative filtering
       </div>
       </a>
       <a href="https://github.com/diga-tech/Destinology_ML" class="text-decoration-none">
-      <div class="card mb-3">
+      <div class="card mb-3 hover-card">
         <div class="card-body">
           <h5 class="card-title">Voice Chatbot for Human Following Robot</h5>
           <p class="card-text">A robot that can interact with the elderly. This project uses the BERT model with indo-bert-lite-p2 as pre-training.
@@ -119,7 +148,7 @@ This project integrates various APIs such as google calender, tempo news portal,
       </div>
       </a>
       <a href="https://github.com/diga-tech/Destinology_ML" class="text-decoration-none">
-      <div class="card">
+      <div class="card hover-card">
         <div class="card-body">
           <h5 class="card-title">WasteWise</h5>
           <p class="card-text">Leveranging data and artificial intelligence for sustainable waste management. This project uses Alibaba Cloud and
@@ -187,6 +216,73 @@ Ormawa program where we proposed to create a smart IoT-based paddy dryer using h
         <button type="submit" class="btn btn-dark">Send Message</button>
       </form>
     </section>
+    <!-- Modal for activities -->
+    <div class="modal fade" id="Activities-Modal" tabindex="-1" aria-labelledby="educationModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="educationModalLabel">
+              <i class="bi bi-person-workspace"></i> Activities and Organizations
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mt-2">
+              <h5>Organizations:</h5>
+              <ul>
+                <li class="fw-bold">2022 - Himpunan Mahasiswa Teknik Elektro</li>
+                <p>Head of Keprofesian Departement<p>
+                <li class="fw-bold">2022 - Badan Eksekutif Mahasiswa Kema Unpad</li>
+                <p>Staff of Research Data and Analysis Bureu</p>
+              </ul>
+              <h5>Activities:</h5>
+              <ul>
+                <li class="fw-bold">2024 - (Conference Paper) Sprayer System on Autonomous Farming Drone Based on Decision Tree
+                  <a class="icon-link icon-link-hover" href="https://ieeexplore.ieee.org/author/705683639300892">Paper link 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                  </a>
+                </li>
+                <li class="fw-bold">2022 - Head of Event Management Magneto</li>
+                <li class="fw-bold">2022 - Analog Electronics Laboratory Assistant</li>
+                <li class="fw-bold">2022 - Basic Electronics Laboratory Assistant</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal for Training -->
+    <div class="modal fade" id="Training-Modal" tabindex="-1" aria-labelledby="trainingModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="trainingModalLabel">
+              <i class="bi bi-paperclip"></i> Courses
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mt-2">
+              <ul>
+                <li>(2023) Google Data Analytics Professional Certificate (Coursera)</li>
+                <li>(2024) Kickstart Cloud Infrastructure (Rakamin)</li>
+                <li>(2024) Scrum Master Training (Rakamin)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <footer class="bg-dark text-white pt-4 pb-3 mt-5">
       <div class="container">
         <div class="row">
